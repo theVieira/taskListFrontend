@@ -1,0 +1,18 @@
+@import './form.scss';
+@import './task.scss';
+
+main {
+  width: fit-content;
+  margin: 3% 50%;
+  transform: translateX(-50%);
+  border: 1px solid #4c5365;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #cecece;
+
+  .tasksArea {
+    display: flex;
+    gap: .7rem;
+    flex-direction: column;
+  }
+}

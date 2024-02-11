@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/styles/index.css">
+  <link rel="shortcut icon" href="./public/assets/favicon.svg" type="image/x-icon">
+  <title>Task-List</title>
+</head>
+<body>
+  <header>
+    <h1>Lista de Tarefas</h1>
+  </header>
+
+  <main>
+    <form>
+      <input type="text" name="newTaskInput" id="newTaskInput" placeholder="Adicionar nova tarefa">
+      <input type="submit" value="Adicionar" id="newTaskButton">
+    </form>
+    <div class="tasksArea">
+      <!-- Injected -->
+    </div>
+  </main>
+
+  <script type="module" src="src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 2rem;
+
+  input {
+    padding: .6rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 600;
+    background-color: #cecece;
+  }
+  
+  #newTaskButton {
+    cursor: pointer;
+    background-color: #4c5265;
+    color: #cecece;
+
+    &:hover {
+      filter: brightness(90%);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "task-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Gabriel Guimarães"
+  },
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "sass": "sass --watch src/styles/index.scss public/styles/index.css"
+  },
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
